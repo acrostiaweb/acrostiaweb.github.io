@@ -66,7 +66,7 @@ nav li a{
 .services h2, .about h2, .work h2, .contacts h2{
 	font: 300 60px 'Lato', sans-serif;
 	line-height: 58px;
-	margin: 100px 0 25px 0;
+	margin: 50px 0 25px 0;
 }
 
 .services h5{
@@ -80,7 +80,7 @@ nav li a{
 }
 
 .services aside, .about aside{
-	margin-top: 100px;
+	margin-top: 25px;
 }
 
 .services aside .round{
@@ -188,16 +188,16 @@ nav li a{
 #my_tabs h3{
 	font: 700 20px 'Lato', sans-serif;
 	line-height: 24px;
-	padding: 20px 0;
+	padding: 15px 0;
 	margin-top: 0px;
 }
 
 #my_tabs{
-	margin-top: 40px;
+	margin-top: 25px;
 }
 
 #my_tabs ul{
-	top: 25px;
+	top: 15px;
 }
 
 #my_tabs ul li{
@@ -211,18 +211,30 @@ nav li a{
 }
 
 #my_tabs .part1{
-	margin-top: 25px;
+	margin-top: 15px;
 	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
 }
 
 #my_tabs .part2{
 	width: 100%;
-	margin-top: 25px;
+	margin-top: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
 }
 
 #my_tabs .cell{
-	width: 250px;
-	height: 240px;
+	width: 240px;
+	height: 200px;
 	margin: 0 25px 0 0;
 	overflow: hidden;
 }
@@ -272,23 +284,23 @@ nav li a{
 	border-right: 20px solid transparent;
 	border-bottom: 25px solid #fff;
 	left: 50%;
-	top: 175px;
+	top: 150px;
 }
 
 #my_tabs .pic{
-	height: 200px;
+	height: 170px;
 }
 
 #my_tabs .cell h6{
 	font: 700 14px 'Lato', sans-serif;
-	line-height: 40px;
+	line-height: 30px;
 }
 /*-------------------------------end--------------------------------*/
 
 /*--------------------------section contact-----------------------*/
 
 .contacts aside{
-	margin-top: 100px;
+	margin-top: 50px;
 	position: relative;
 }
 
