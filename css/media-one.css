@@ -1,0 +1,141 @@
+@media screen and (min-width: 479px){
+
+
+/*-------------------header------------*/
+	.logo {
+		width: 35%;
+		float: left;
+	}
+
+	nav{
+		width: 65%;
+		float: left;
+	}
+
+	nav li a {
+		padding-top: 10px;
+		padding: 10px 9px 0 9px;
+		line-height: 30px;
+	}
+/*--------------end--------------------*/
+
+
+
+/*--------------------------section services-----------------------*/
+
+.services aside .rec{
+	width: 24%;
+}
+
+.services aside .lightball{
+	margin: 0 1% 0 0.5%;
+}
+
+.services aside .m-wand, .services aside .giars{
+	margin: 0 1% 0 0;
+}
+
+.services aside .rocket{
+	margin: 0 0.5% 0 0;
+}
+
+.services aside .giars{
+	clear: none;
+}
+
+.services aside .round{
+	margin: 15px auto 25px;
+}
+
+.services aside .rec h4{
+	font: 300 16px 'Lato', sans-serif;
+	line-height: 20px;
+	margin-bottom: 10px;
+	letter-spacing: -0.8px;
+}
+/*-------------------------------end--------------------------------*/
+
+/*--------------------------section about-----------------------*/
+.about aside .user{
+	width: 24%;
+}
+
+.about aside .user:first-child{
+	margin: 0 1% 0 0.5%;
+}
+
+.about aside .user:nth-child(2), .about aside .user:nth-child(3){
+	margin: 0 1% 0 0;
+}
+
+.about aside .user:nth-child(3){
+	clear: none;
+}
+
+.about aside .user:last-child{
+	margin: 0 0.5% 0 0;
+}
+
+.about .user h4{
+	line-height: 16px;
+	height: 32px;
+	margin: 5px 0;
+}
+
+/*-------------------------------end--------------------------------*/
+
+/*--------------------------section work-----------------------*/
+#my_tabs ul li{
+	margin-right: 5px;
+}
+
+#my_tabs .cell{
+	width: 24%;
+}
+
+#my_tabs .cell:first-child{
+	margin: 0 1% 0 0.5%;
+}
+
+#my_tabs .cell:nth-child(2), #my_tabs .cell:nth-child(3){
+	margin: 0 1% 0 0;
+}
+
+#my_tabs .cell:nth-child(3){
+	clear: none;
+}
+
+#my_tabs .cell:last-child{
+	margin: 0 0.5% 0 0;
+}
+
+#my_tabs .pic{
+	height: 110px;
+}
+
+/*-------------------------------end--------------------------------*/
+
+/*--------------------------section contact-----------------------*/
+.contacts aside{
+	margin-top: 10px;
+}
+
+.contacts .adress, .contacts .form {
+	width: 48%;
+}
+
+.contacts .adress{
+	float: left;
+}
+
+.contacts .form {
+	float: right;
+}
+
+.form input[type=submit]{
+	transform: translateX(40%);
+}
+
+/*-------------------------------end--------------------------------*/
+
+}

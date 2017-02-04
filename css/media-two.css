@@ -1,0 +1,497 @@
+@media screen and (min-width: 641px){
+
+
+/*------------------header-------------------------*/
+
+.logo h1{
+	font: 400 50px 'Damion', cursive;
+	line-height: 60px;
+}
+
+nav {
+	text-align: right;
+}
+
+nav li a{
+	font: 400 16px 'Lato', sans-serif;
+	line-height: 34px;
+	padding: 20px 10px 0 10px;
+}
+
+/*------------------------------------------------*/
+
+/*------------------section home---------------------*/
+.home nav li:hover a{
+	border-radius: 5px;
+}
+
+.bunner{
+	padding: 20px;
+	border-radius: 4px;
+}
+
+.bunner .ideas{
+	min-width: 115px;
+	float: left;
+}
+
+.bunner .ideas p{
+	font: 400 32px 'Lato', sans-serif;
+	line-height: 32px;
+}
+
+.bunner .first p {
+	font: 700 76px 'Lato', sans-serif;
+	line-height: 70px;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span{
+    height: 20px;
+    width: 20px;
+ }
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    height: 20px;
+    width: 20px;
+}
+
+.fp-slidesNav ul li{
+	margin-right: 30px;
+}
+
+#fp-nav ul li:hover a span,
+.fp-slidesNav ul li:hover a span{
+    width: 20px;
+    height: 20px;
+}
+/*-------------------------------end--------------------------------*/
+
+/*--------------------------section services-----------------------*/
+.services nav li:hover a{
+	border-radius: 5px;
+}
+
+.services h2, .about h2, .work h2, .contacts h2{
+	font: 300 40px 'Lato', sans-serif;
+	line-height: 46px;
+	margin: 70px 0 25px 0;
+}
+
+.services h5{
+	font: 300 18px 'Lato', sans-serif;
+	line-height: 26px;
+}
+
+.services p, .about p, .work p, .contacts p{
+	font: 300 12px 'Lato', sans-serif;
+	line-height: 18px;
+	margin-top: 15px;
+}
+
+.services aside, .about aside{
+	margin-top: 50px;
+}
+
+.services aside .rec{
+	width: 23%;
+	border-radius: 5px;
+}
+
+.services aside .lightball, .services aside .m-wand, .services aside .giars{
+	margin: 0 2% 0 0;
+}
+
+.services aside .lightball{
+	margin-left: 1%;
+}
+
+.services aside .rocket{
+	margin-right: 0 1% 0 0;
+}
+
+.services aside .round{
+	width: 80px;
+	height: 80px;
+	margin: 20px auto;
+}
+
+.services aside .round:before{
+	width: 86px;
+	height: 86px;
+}
+
+.services aside .round div{
+	height: 48px;
+}
+
+.services aside .round .lb{
+	width: 35px;
+}
+
+.services aside .round .mw, .services aside .round .roc{
+	width: 48px;
+}
+
+.services aside .round .gia{
+	width: 57px;
+}
+
+.services aside .rec h4{
+	font: 300 16px 'Lato', sans-serif;
+	line-height: 22px;
+	margin-bottom: 15px;
+}
+
+.services aside .rec p{
+	display: block;
+	font: 400 12px 'Lato', sans-serif;
+	line-height: 16px;
+	color: #fefefe;
+	margin-bottom: 10px;
+}
+
+ /*-------------------------------end--------------------------------*/
+
+
+/*--------------------------section about-----------------------*/
+
+.about nav li:hover a{
+	border-radius: 5px;
+}
+
+.about .meet{
+	font: 300 20px 'Lato', sans-serif;
+	line-height: 40px;
+	padding: 0 15px;
+	border-radius: 4px;
+	margin: 30px 0;
+}
+
+.about .meet:before{
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #a1ca6c;
+}
+
+.about .meet:hover{
+	background-color: #81a256;
+}
+
+.about .meet:hover:before{
+	border-left-color:  transparent;
+	border-right-color:  transparent;
+	border-top-color:  #81a256;
+}
+
+.about aside .user{
+	width: 23%;
+}
+
+.about aside .user:first-child{
+	margin: 0 2% 0 1%;
+}
+
+.about aside .user:nth-child(2), .about aside .user:nth-child(3){
+	margin: 0 2% 0 0;
+}
+
+.about aside .user:last-child{
+	margin: 0 1% 0 0;
+}
+
+.about aside .photo{
+	width: 80px;
+	height: 80px;
+	border: 3px solid #a1859e;
+	margin: 20px auto 0;
+}
+
+.about .user .photo a i{
+	font-size: 65px;
+}
+
+.about .user:hover .photo a{
+	color: #df5c64;
+}
+
+.about .user h4{
+	font: 900 20px 'Lato', sans-serif;
+	line-height: 22px;
+	margin: 10px 0;
+	min-height: 22px;
+}
+
+.about .user p{
+	font: 300 14px 'Lato', sans-serif;
+	line-height: 18px;
+	margin: 5px 0 20px 0;
+}
+
+.about .user:hover p{
+	color: #df5c64;
+}
+
+.about .user .social_nets{
+	display: block;
+	margin-bottom: 10px;
+}
+
+.about .user ul li{
+	display: inline-block;
+	text-align: center;
+	margin-right: 5px;
+}
+
+.about .user ul li:last-child{
+	margin-right: 0;
+}
+
+.about .user ul li a{
+	display: inline-block;
+	color: #fff;
+	background-color: #a1859e;
+	border-radius: 50%;
+	padding: 5px;
+	width: 15px;
+	height: 15px;
+	position: relative;
+}
+	
+
+.about .user ul li a i{
+	font-size: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.about .user:hover ul li:first-child a{
+	background-color: #4f689e;
+}
+
+.about .user:hover ul li:nth-child(2) a{
+	background-color: #74c7d5;
+}
+
+.about .user:hover ul li:nth-child(3) a{
+	background-color: #df5c64;
+}
+
+.about .user:hover ul li:last-child a{
+	background-color: #3e61af;
+}
+/*-------------------------------end--------------------------------*/
+
+/*--------------------------section work-----------------------*/
+
+.work nav li:hover a{
+	border-radius: 5px;
+}
+
+#my_tabs h3{
+	font: 700 18px 'Lato', sans-serif;
+	line-height: 24px;
+	padding: 10px 0;
+	margin-top: 0px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+}
+
+#my_tabs{
+	margin-top: 30px;
+}
+
+#my_tabs ul{
+	top: 12px;
+}
+
+#my_tabs ul li{
+	margin-right: 10px;
+}
+
+#my_tabs ul li a{
+	font: 700 14px 'Lato', sans-serif;
+	line-height: 20px;
+	padding: 0 5px;
+}
+
+#my_tabs .part1{
+	margin-top: 20px;
+}
+
+#my_tabs .part2{
+	display: block;
+	margin-top: 20px;
+}
+
+#my_tabs .cell{
+	width: 23%;
+	position: relative;
+}
+
+#my_tabs .cell:first-child{
+	margin: 0 2% 0 1%;
+}
+
+#my_tabs .cell:nth-child(2), #my_tabs .cell:nth-child(3){
+	margin: 0 2% 0 0;
+}
+
+#my_tabs .cell:last-child{
+	margin: 0 1% 0 0;
+}
+
+#my_tabs .cell:hover .pic div{
+	bottom: 0px;
+}
+
+#my_tabs .cell:before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 20px solid #fff;
+	position: absolute;
+	left: 50%;
+	top: 110px;
+	transform: translateX(-50%);
+	z-index: 100;
+}
+
+#my_tabs .pic{
+	height: 130px;
+}
+
+/*-------------------------------end--------------------------------*/
+
+
+/*--------------------------section contact-----------------------*/
+
+.contacts nav li:hover a{
+	border-radius: 5px;
+}
+
+.contacts aside{
+	margin-top: 20px;
+}
+
+.contacts .adress, .contacts .form {
+	width: 100%;
+}
+
+.contacts .adress{
+	float: none;
+	margin-bottom: 20px;
+}
+
+.contacts .form {
+	float: none;
+}
+
+.contacts .adress h3, .contacts .form h3{
+	font: 400 22px 'Lato', sans-serif;
+	line-height: 26px;
+	margin-bottom: 15px;
+}
+
+.contacts .adress h6{
+	font: 700 18px 'Lato', sans-serif;
+	line-height: 18px;
+}
+
+.contacts .adress p, .contacts .adress ul li{
+	font: 400 14px 'Lato', sans-serif;
+	line-height: 18px;
+}
+
+.contacts .adress ul li span{
+	margin-right: 10px;
+}
+
+.contacts .adress ul li a{
+	font: 400 14px 'Lato', sans-serif;
+	line-height: 18px;
+}
+
+.contacts .adress .none{
+	width: 100%;
+	height: 50px;
+}
+
+.contacts .adress .adress-map{
+	position: relative;
+	width: 100%;
+}
+
+.contacts .adress .contact-info{
+	width: 47%;
+	float: left;
+}
+
+.contacts .adress .map{
+	display: block;
+	width: 47%;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-radius: 5px;
+}
+
+.form{
+	position: relative;
+	padding-bottom: 40px;
+}
+
+.form input[type=text], .form input[type=email]{
+	height: 30px;
+	font: 400 14px 'Lato', sans-serif;
+	line-height: 18px;
+	margin-bottom: 10px;
+}
+
+.form textarea{
+	width: 100%;
+	height: 100px;
+	font: 400 14px 'Lato', sans-serif;
+	line-height: 14px;
+}
+
+.form input[type=submit]{
+	width: 180px;
+	height: 34px;
+	font: 900 20px 'Lato', sans-serif;
+	line-height: 20px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+footer{
+	padding: 10px 0;
+}
+
+footer li {
+	margin-right: 15px;
+}
+
+footer a {
+	width: 35px;
+	height: 35px;
+}
+
+footer i{
+	font-size: 16px;
+	line-height: 16px;
+}
+
+/*-------------------------------end--------------------------------*/
+}

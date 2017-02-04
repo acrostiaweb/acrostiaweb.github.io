@@ -1,0 +1,381 @@
+@media screen and (min-width: 1111px){
+/*------------------header-------------------------*/
+
+.logo h1{
+	font: 400 50px 'Damion', cursive;
+	line-height: 60px;
+	padding-top: 20px;
+}
+
+nav li a{
+	font: 400 18px 'Lato', sans-serif;
+	line-height: 60px;
+	padding: 20px 20px 0;
+}
+
+/*------------------------------------------------*/
+
+/*------------------section home---------------------*/
+
+.bunner{
+	padding: 40px;
+	border-radius: 5px;
+}
+
+.bunner .ideas{
+	min-width: 115px;
+	float: left;
+}
+
+.bunner .ideas p{
+	font: 400 60px 'Lato', sans-serif;
+	line-height: 60px;
+}
+
+.bunner .first p {
+	font: 700 136px 'Lato', sans-serif;
+	line-height: 130px;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span{
+    height: 25px;
+    width: 25px;
+ }
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    height: 25px;
+    width: 25px;
+}
+
+.fp-slidesNav ul li{
+	margin-right: 40px;
+}
+
+#fp-nav ul li:hover a span,
+.fp-slidesNav ul li:hover a span{
+    width: 25px;
+    height: 25px;
+}
+/*-------------------------------end--------------------------------*/
+/*--------------------------section services-----------------------*/
+
+.services h2, .about h2, .work h2, .contacts h2{
+	font: 300 60px 'Lato', sans-serif;
+	line-height: 58px;
+	margin: 100px 0 25px 0;
+}
+
+.services h5{
+	font: 300 20px 'Lato', sans-serif;
+	line-height: 38px;
+}
+
+.services p, .about p, .work p, .contacts p{
+	font: 300 14px 'Lato', sans-serif;
+	line-height: 24px;
+}
+
+.services aside, .about aside{
+	margin-top: 100px;
+}
+
+.services aside .round{
+	width: 120px;
+	height: 120px;
+	margin: 40px auto;
+}
+
+.services aside .round:before{
+	width: 135px;
+	height: 135px;
+	border: 5px solid #fff;
+	border-radius: 100%;
+}
+
+.services aside .round div{
+	height: 64px;
+}
+
+.services aside .round .lb{
+	width: 46px;
+}
+
+.services aside .round .mw, .services aside .round .roc{
+	width: 64px;
+}
+
+.services aside .round .gia{
+	width: 75px;
+}
+
+.services aside .rec h4{
+	font: 300 30px 'Lato', sans-serif;
+	line-height: 58px;
+	margin-bottom: 0px;
+}
+
+.services aside .rec p{
+	font: 400 14px 'Lato', sans-serif;
+	line-height: 20px;
+	margin: 0 15px 30px 15px;
+}
+ /*-------------------------------end--------------------------------*/
+ /*--------------------------section about-----------------------*/
+
+.about .meet{
+	font: 300 25px 'Lato', sans-serif;
+	line-height: 58px;
+	padding: 0 30px;
+	border-radius: 5px;
+	margin: 30px 0;
+}
+
+.about .meet:before{
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #a1ca6c;
+}
+
+.about aside .photo{
+	width: 150px;
+	height: 150px;
+	border: 5px solid #a1859e;
+	margin: 40px auto 0;
+}
+
+.about .user .photo a i{
+	font-size: 120px;
+}
+
+.about .user h4{
+	font: 900 25px 'Lato', sans-serif;
+	line-height: 58px;
+	margin: 0;
+	height: auto;
+}
+
+.about .user p{
+	font: 300 14px 'Lato', sans-serif;
+	line-height: 18px;
+	margin: 5px 0 20px 0;
+}
+
+.about .user .social_nets{
+	margin-bottom: 30px;
+}
+
+.about .user ul li{
+	margin-right: 15px;
+}
+
+.about .user ul li a{
+	padding: 5px;
+	width: 20px;
+	height: 20px;
+}
+	
+.about .user ul li a i{
+	font-size: 15px;
+}
+
+/*-------------------------------end--------------------------------*/
+/*--------------------------section work-----------------------*/
+
+#my_tabs h3{
+	font: 700 20px 'Lato', sans-serif;
+	line-height: 24px;
+	padding: 20px 0;
+	margin-top: 0px;
+}
+
+#my_tabs{
+	margin-top: 40px;
+}
+
+#my_tabs ul{
+	top: 25px;
+}
+
+#my_tabs ul li{
+	margin-right: 15px;
+}
+
+#my_tabs ul li a{
+	font: 700 16px 'Lato', sans-serif;
+	line-height: 24px;
+	padding: 5px 15px;
+}
+
+#my_tabs .part1{
+	margin-top: 25px;
+	width: 100%;
+}
+
+#my_tabs .part2{
+	width: 100%;
+	margin-top: 25px;
+}
+
+#my_tabs .cell{
+	width: 250px;
+	height: 240px;
+	margin: 0 25px 0 0;
+	overflow: hidden;
+}
+
+#my_tabs .cell:lastst-child{
+	margin: 0;
+}
+
+#my_tabs .cell .pic:hover div{
+	bottom: 0px;
+}
+
+#my_tabs .pic div{
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	background-color: #3d4d29;
+	position: absolute;
+	bottom:100%;
+	left:0;
+	transition: all 0.5s ease-in-out;
+}
+
+#my_tabs .pic div p{
+	width: 50px;
+	height: 50px;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
+}
+
+#my_tabs .pic div p a{
+	display: inline-block;
+	font: 700 34px 'Lato', sans-serif;
+	color: #fff;
+	vertical-align: middle;
+}
+
+#my_tabs .cell:before{
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 25px solid #fff;
+	left: 50%;
+	top: 175px;
+}
+
+#my_tabs .pic{
+	height: 200px;
+}
+
+#my_tabs .cell h6{
+	font: 700 14px 'Lato', sans-serif;
+	line-height: 40px;
+}
+/*-------------------------------end--------------------------------*/
+
+/*--------------------------section contact-----------------------*/
+
+.contacts aside{
+	margin-top: 100px;
+	position: relative;
+}
+
+.contacts .adress, .contacts .form {
+	width: 48%;
+}
+
+.contacts .adress{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	margin-bottom: 0;
+}
+
+.contacts .form {
+	float: right;
+}
+
+.contacts .adress h3, .contacts .form h3{
+	font: 400 30px 'Lato', sans-serif;
+	line-height: 30px;
+	margin-bottom: 25px;
+}
+
+.contacts .adress h6{
+	font: 700 20px 'Lato', sans-serif;
+	line-height: 20px;
+}
+
+.contacts .adress p, .contacts .adress ul li{
+	font: 400 16px 'Lato', sans-serif;
+	line-height: 21px;
+}
+
+.contacts .adress ul li a{
+	font: 400 16px 'Lato', sans-serif;
+	line-height: 21px;
+}
+
+.form{
+	position: relative;
+	padding-bottom: 0;
+}
+
+.form input[type=text], .form input[type=email]{
+	height: 40px;
+	font: 400 16px 'Lato', sans-serif;
+	line-height: 21px;
+	margin-bottom: 20px;
+}
+
+.form textarea{
+	width: 100%;
+	height: 150px;
+	font: 400 16px 'Lato', sans-serif;
+	line-height: 21px;
+}
+
+.form input[type=submit]{
+	width: 260px;
+	height: 50px;
+	font: 900 26px 'Lato', sans-serif;
+	line-height: 26px;
+	position: relative;
+	transform: translateX(970);
+	margin-top: 20px;
+}
+
+
+footer{
+	padding: 25px 0;
+}
+
+footer li {
+	margin-right: 30px;
+}
+
+footer a {
+	width: 60px;
+	height: 60px;
+}
+
+footer i{
+	font-size: 22px;
+	line-height: 22px;
+}
+
+/*-------------------------------end--------------------------------*/
+}
